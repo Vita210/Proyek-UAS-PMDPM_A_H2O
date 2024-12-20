@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-model = load_model(r"BestModel_VGG-16_H2O.h5")
+model = load_model(r'BestModel_VGG-16_H2O.h5')
 class_names = ["JamurKuping", "JamurReishi", "JamurShitake"]
 
 def classify_image(image_path):
